@@ -32,7 +32,7 @@ const days = miniArgs.d;
 const weather = data.daily.precipitation_hours[days]; 
 const output = ""; 
 
-if (args.j){
+if (miniArgs.j){
     console.log(data);
     process.exit(0);
 }
